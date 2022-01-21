@@ -1,0 +1,6 @@
+etc/addons
+etc/filestore
+sessions
+postgresql
+
+odoo-server.log
