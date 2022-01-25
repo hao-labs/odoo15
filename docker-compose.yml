@@ -8,6 +8,8 @@ services:
       - POSTGRES_USER=odoo
       - POSTGRES_DB=postgres
     restart: always # run as a service
+    ports:
+      - "5432:5432"
     volumes:
       - ./postgresql:/var/lib/postgresql/data
 
